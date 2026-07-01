@@ -31,7 +31,7 @@ assets/img/        logos, foto e imagens dos parceiros já otimizadas
 
 - **WhatsApp**: o número usado em todos os botões é `5585997889263` ((85) 9.9788-9263). Se estiver errado, troque em `index.html` (busque por `5585997889263`).
 - **Instagram**: já aponta para `instagram.com/espacoterapeuticokidsmae`.
-- **Chave PIX**: usei o CNPJ como chave (`49.099.408/0001-08`), como aparecia no material de referência. Confirme se é essa mesma chave.
+- **Chave PIX**: usei o CNPJ como chave (`49.999.408/0001-08`), como aparecia no material de referência. Confirme se é essa mesma chave.
 - **Mapa**: o mapa incorporado busca pelo endereço "Rua André Chaves, 500, Jardim América, Fortaleza - CE". Se quiser o pino exato, gere o link do Google Maps do local e troque o `src` do `iframe` na seção `#contato`.
 - **Domínio próprio (opcional)**: se a ONG tiver um domínio (ex: `ongmae.org.br`), crie um arquivo `CNAME` na raiz do repositório contendo apenas o domínio, e configure o DNS conforme a [documentação do GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
