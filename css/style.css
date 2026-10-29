@@ -494,10 +494,13 @@ ul { padding: 0; margin: 0; list-style: none; }
 /* ============ PLANOS ============ */
 .plans-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 24px;
   margin-bottom: 50px;
 }
+/* 5 planos: 3 na primeira linha, 2 centralizados na segunda */
+.plans-grid .plan-card { grid-column: span 2; }
+.plans-grid .plan-card:nth-child(4) { grid-column: 2 / span 2; }
 
 .plan-card {
   background: var(--white);
@@ -833,6 +836,8 @@ ul { padding: 0; margin: 0; list-style: none; }
   .about-photo { max-width: 380px; margin: 0 auto; }
   .mvv-grid, .help-grid { grid-template-columns: 1fr 1fr; }
   .plans-grid { grid-template-columns: 1fr 1fr; }
+  .plans-grid .plan-card,
+  .plans-grid .plan-card:nth-child(4) { grid-column: auto; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
   .footer-social { grid-column: span 2; }
   .about-gallery { grid-template-columns: repeat(3, 1fr); }
